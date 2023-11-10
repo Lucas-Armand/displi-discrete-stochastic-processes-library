@@ -1,4 +1,4 @@
-# Displi: Discrete Stochastic Processes Library for Python
+# DiSPLi: Discrete Stochastic Processes Library for Python
 
 Displi is a Python library designed for discrete stochastic processes, providing analytical solutions for queueing systems based on queueing theory. It includes implementations for M/M/S/K and M/G/1/K queueing models, allowing users to analyze and understand the behavior of queuing systems.
 
