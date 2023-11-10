@@ -4,7 +4,6 @@ Displi is a Python library designed for discrete stochastic processes, providing
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
 - [Examples](#examples)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
@@ -17,9 +16,10 @@ To install Displi, you can use `pip`:
 ```bash
 pip install displi
 ```
-## Usage
+## Example
 
 Here's a quick overview of the available queueing models:
+
 MMSK (M/M/S/K)
 
 ```python
@@ -52,25 +52,6 @@ ro = mg1k.calculate_traffic_intensity()
 pk = mg1k.calculate_probability_k()
 
 # ... (and more)
-```
-
-
-## Examples
-
-Here's a simple example of using the MMSK model:
-
-```python
-
-from displi import MMSK
-
-# Create an MMSK queueing system
-mmsk = MMSK(arrival_rate=5, service_rate=8, servers=3, capacity=10)
-
-# Calculate traffic intensity
-ro = mmsk.calculate_traffic_intensity()
-
-# Print the result
-print(f"Traffic Intensity (ro): {ro}")
 ```
 
 ## Documentation
